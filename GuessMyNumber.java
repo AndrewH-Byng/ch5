@@ -23,6 +23,7 @@ public class GuessMyNumber {
 			count += 1;
 		}
 		if (count == 3){
+			System.out.print("Game over, the number is " + number);
 			return;
 		}
 			
@@ -32,6 +33,7 @@ public class GuessMyNumber {
 			count += 1;
 		}
 			if (count == 3){
+			System.out.print("Game over, the number is " + number);
 			return;
 		}
 		if (inputnumber < number){
@@ -40,6 +42,7 @@ public class GuessMyNumber {
 			count += 1;
 		}
 			if (count == 3){
+			System.out.print("Game over, the number is " + number);
 			return;
 		}
 			if (inputnumber > number){
@@ -48,6 +51,7 @@ public class GuessMyNumber {
 			count += 1;
 		}
 			if (count == 3){
+			System.out.print("Game over, the number is " + number);
 			return;
 		}
 		if (inputnumber < number){
@@ -57,31 +61,8 @@ public class GuessMyNumber {
 		}
 		
 		if (count == 3){
+			System.out.print("Game over, the number is " + number);
 			return;
 		}
 	}
 }
-
-	
-			
-			
-			
-			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-		
-	
-
-		
