@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Traingle{
+public class Triangle{
 	public static void main (String[] args){
 		System.out.println("Type in 3 numbers");
 		Scanner in = new Scanner(System.in);
